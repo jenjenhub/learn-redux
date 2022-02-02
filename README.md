@@ -3,6 +3,8 @@
 https://www.youtube.com/watch?v=CVpUuw9XSjY
 
 💗 주석처리된 이 부분을 여러 파일로 나누어 처리하는 과정이다.
+```js
+
 // STORE -> Globalized State
 
 // ACTION (describes what you wanna do = +1 and -1) : INCREMENT
@@ -41,3 +43,5 @@ store.subscribe(() => console.log(store.getState()));
 store.dispatch(increment()); //1
 store.dispatch(decrement()); //0
 store.dispatch(decrement()); //-1
+
+```
