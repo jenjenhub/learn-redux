@@ -1,5 +1,7 @@
 import React from "react";
-import { useSelector, useDispatch } from "react-redux"; //index.js내용을 App.js로 연결해 불러오는 역할
+import { useSelector, useDispatch } from "react-redux";
+//useSelector : connect함수를 이용하지 않고 리덕스의 state를 조회할 수 있다. (useSelector를 사용하면 reducer들이 담긴 reducers/index.js내용을 App.js로 연결해 불러올 수 있다)
+//useDispatch : 생성한 action을 useDispatch를 통해 발생시킬 수 있다.
 import { increment, decrement } from "./actions";
 
 function App() {
