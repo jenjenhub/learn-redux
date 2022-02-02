@@ -13,6 +13,7 @@ const myStore = createStore(
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
 
+// 💗 주석처리된 이 부분을 여러 파일로 나누어 처리하는 과정이다.
 // // STORE -> Globalized State
 
 // // ACTION (describes what you wanna do = +1 and -1) : INCREMENT

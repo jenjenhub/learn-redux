@@ -17,6 +17,6 @@ function App() {
   );
 }
 
-//button onClick 부분을 actions/index.js 에서 처리한다
+//button onClick 부분은 ()=>dispatch(ACTION) 으로 실행되는데, action/index.js 에서 action의 내용을 처리한다
 
 export default App;
