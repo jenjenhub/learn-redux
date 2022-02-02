@@ -8,6 +8,7 @@ https://www.youtube.com/watch?v=CVpUuw9XSjY
 // STORE -> Globalized State
 
 // ACTION (describes what you wanna do = +1 and -1) : INCREMENT
+// action returns an object with a type & payload
 const increment = () => {
 return {
 type: "INCREMENT",
