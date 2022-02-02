@@ -59,6 +59,7 @@ const myStore = createStore(
 // store.dispatch(decrement()); //0
 // store.dispatch(decrement()); //-1
 
+// This part is to link Redux with React
 ReactDOM.render(
   <Provider store={myStore}>
     <App />
